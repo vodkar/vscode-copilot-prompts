@@ -9,4 +9,8 @@ This repository is split by languages. Currently supported languages are:
 - 📜 [JavaScript](./javascript)
 - 🐍 [Python](./python)
 
-Also, we have a general prompt for copilot in the root directory.
+## General Prompts
+
+- [General Prompt](./general-instructions.md)
+- [Personal Instructions](./personal-instructions.md)
+  - Note: this is just template for your personal data. Customize it to fit your needs.

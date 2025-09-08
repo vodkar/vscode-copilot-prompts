@@ -15,6 +15,7 @@ applyTo: "**/*.py"
 - USE:
   - `Final[...]` for constants
   - `ClassVar[...]` for class-level variables shared across instances
+  - `Self` for methods that return an instance of the class
 
 ## NAMING CONVENTIONS
 
@@ -28,6 +29,8 @@ applyTo: "**/*.py"
 - PREFER **list/dict/set comprehensions** over manual loops when constructing collections
 - ALWAYS USE `with` context managers for file/resource handling
 - NEVER USE `from module import *`; IMPORT ONLY what is needed explicitly
+- USE `__` AND `_` prefixes for methods/variables to indicate private/protected scope.
+- AVOID DEEP NESTING, prefer early returns and helper functions to flatten logic
 
 ## DOCSTRINGS & COMMENTS
 
@@ -39,10 +42,9 @@ applyTo: "**/*.py"
 ## ERROR HANDLING
 
 - AVOID bare `except:` blocks — ALWAYS CATCH specific exception types
+- AVOID using general exceptions like `Exception` or `BaseException`
 - FAIL FAST: Validate inputs and raise `ValueError` / `TypeError` when appropriate
-- WHEN LOGGING EXCEPTIONS:
-  - USE `logger.exception()` to include full traceback
-  - NEVER use `logger.error()` for exceptions
+- USE `logging.exception()` to log errors with exception stack traces
 
 ## LOGGING RULES
 
@@ -52,8 +54,10 @@ applyTo: "**/*.py"
 
 ## GENERAL INSTRUCTIONS
 
+- ALIGN WITH existing project conventions and patterns
+- ALWAYS DOUBLE-CHECK for existing utilities or helpers before creating new ones
 - KEEP FUNCTIONS SMALL, focused, and single-purpose
-- BREAK complex logic into **private helper functions**
+- BREAK complex logic into helper functions
 - BE SPECIFIC in handling:
   - Language-level edge cases
   - Algorithmic complexity

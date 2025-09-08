@@ -4,10 +4,16 @@ This repository contains a prompts for your [vscode-copilot](https://code.visual
 
 ## The repository structure
 
-This repository is split by languages. Currently supported languages are:
+This repository is split by high-level use cases of prompts:
 
-- 📜 [JavaScript](./javascript)
-- 🐍 [Python](./python)
+- [Languages](./languages)
+  Currently supported languages are:
+  - 📜 [JavaScript](./languages/javascript)
+  - 🐍 [Python](./languages/python)
+
+- [Approaches](./approaches)
+  Techniques for effective vibe coding are:
+  - [Memory Bank](./approaches/memory-bank.md)
 
 ## General Prompts
 

@@ -4,7 +4,7 @@
   - Average tokens count:
 - [Pytest Instructions](./pytest-instructions.md)
 
-%% Paste in README; GitHub renders Mermaid
+```mermaid
 bar
     title Tokens by Directory
     x-axis Tokens
@@ -14,3 +14,4 @@ bar
     "docs" : 9345
     "scripts" : 3210
     "examples" : 1711
+```

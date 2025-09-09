@@ -5,13 +5,15 @@
 - [Pytest Instructions](./pytest-instructions.md)
 
 ```mermaid
-bar
-    title Tokens by Directory
-    x-axis Tokens
-    y-axis Folders
-    "src" : 48210
-    "tests" : 22980
-    "docs" : 9345
-    "scripts" : 3210
-    "examples" : 1711
+xychart-beta
+    title "Token counts by file & model"
+    x-axis ["personal-instructions.md", "general-instructions.md"]
+    y-axis "Tokens" 0 --> 450
+    bar "Claude 4 Opus" [49, 434]
+    bar "Claude 4 Sonnet" [49, 434]
+    bar "GPT-5" [49, 332]
+    bar "GPT-5 Mini" [49, 332]
+    bar "Gemini 2.5 Pro" [43, 380]
+    bar "Gemini 2.5 Flash" [43, 380]
+    bar "Grok 1.5" [43, 380]
 ```

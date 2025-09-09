@@ -64,6 +64,7 @@ applyTo: "**/*.py"
   - Domain-specific constraints
 - USE `@staticmethod` when instance/class state is not needed
 - USE `@classmethod` for alternative constructors or class-level utilities
+- ALWAYS USE package managers for dependencies and virtual environments management; If package manager not specified, DEFAULT TO `pip` and `venv`
 - FOLLOW the **Zen of Python (PEP 20)** to guide decisions on clarity and simplicity
 
 ENFORCE ALL OF THE ABOVE IN EVERY GENERATED SNIPPET, CLASS, FUNCTION, AND MODULE.

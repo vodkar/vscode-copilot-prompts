@@ -1,0 +1,123 @@
+analysis_metadata:
+  total_files: 6
+  tiktoken_available: true
+  anthropic_available: true
+  note: Token counts are approximations when official tokenizers are unavailable
+files:
+  approaches/memory_bank/memory-bank-instructions.md:
+    file_path: approaches/memory_bank/memory-bank-instructions.md
+    file_size_bytes: 8810
+    character_count: 8810
+    average_tokens: 2172
+    token_counts:
+      claude:
+        claude-4-opus: 2517
+        claude-4-sonnet: 2517
+      openai:
+        gpt-5: 1784
+        gpt-5-mini: 1784
+      google:
+        gemini-2.5-pro: 2202
+        gemini-2.5-flash: 2202
+      x:
+        grok-1.5: 2202
+  general-instructions.md:
+    file_path: general-instructions.md
+    file_size_bytes: 1530
+    character_count: 1520
+    average_tokens: 381
+    token_counts:
+      claude:
+        claude-4-opus: 434
+        claude-4-sonnet: 434
+      openai:
+        gpt-5: 332
+        gpt-5-mini: 332
+      google:
+        gemini-2.5-pro: 380
+        gemini-2.5-flash: 380
+      x:
+        grok-1.5: 380
+  languages/javascript/general-instructions.md:
+    file_path: languages/javascript/general-instructions.md
+    file_size_bytes: 2417
+    character_count: 2339
+    average_tokens: 599
+    token_counts:
+      claude:
+        claude-4-opus: 668
+        claude-4-sonnet: 668
+      openai:
+        gpt-5: 553
+        gpt-5-mini: 553
+      google:
+        gemini-2.5-pro: 584
+        gemini-2.5-flash: 584
+      x:
+        grok-1.5: 584
+  languages/python/general-with-typing-instructions.md:
+    file_path: languages/python/general-with-typing-instructions.md
+    file_size_bytes: 2904
+    character_count: 2898
+    average_tokens: 744
+    token_counts:
+      claude:
+        claude-4-opus: 828
+        claude-4-sonnet: 828
+      openai:
+        gpt-5: 693
+        gpt-5-mini: 693
+      google:
+        gemini-2.5-pro: 724
+        gemini-2.5-flash: 724
+      x:
+        grok-1.5: 724
+  languages/python/pytest-instructions.md:
+    file_path: languages/python/pytest-instructions.md
+    file_size_bytes: 4359
+    character_count: 4355
+    average_tokens: 1149
+    token_counts:
+      claude:
+        claude-4-opus: 1244
+        claude-4-sonnet: 1244
+      openai:
+        gpt-5: 1146
+        gpt-5-mini: 1146
+      google:
+        gemini-2.5-pro: 1088
+        gemini-2.5-flash: 1088
+      x:
+        grok-1.5: 1088
+  personal-instructions.md:
+    file_path: personal-instructions.md
+    file_size_bytes: 173
+    character_count: 173
+    average_tokens: 46
+    token_counts:
+      claude:
+        claude-4-opus: 49
+        claude-4-sonnet: 49
+      openai:
+        gpt-5: 49
+        gpt-5-mini: 49
+      google:
+        gemini-2.5-pro: 43
+        gemini-2.5-flash: 43
+      x:
+        grok-1.5: 43
+averages:
+  average_file_size_bytes: 3365
+  average_character_count: 3349
+  average_token_counts:
+    claude:
+      claude-4-opus: 956
+      claude-4-sonnet: 956
+    openai:
+      gpt-5: 759
+      gpt-5-mini: 759
+    google:
+      gemini-2.5-pro: 836
+      gemini-2.5-flash: 836
+    x:
+      grok-1.5: 836

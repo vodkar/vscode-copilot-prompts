@@ -10,7 +10,7 @@ gantt
     dateFormat  X
     axisFormat  %s
 
-    section personal-instructions.md
+    section Personal Instructions
     Claude Opus    : 0, 49
     Claude Sonnet  : 0, 49
     GPT-5          : 0, 49
@@ -19,7 +19,7 @@ gantt
     Gemini Flash   : 0, 43
     Grok 1.5       : 0, 43
 
-    section general-instructions.md
+    section General Instructions
     Claude Opus    : 0, 434
     Claude Sonnet  : 0, 434
     GPT-5          : 0, 332

@@ -6,36 +6,26 @@
 
 ```mermaid
 gantt
-    title Token counts per tokenizer (values = tokens)
+    title Token counts per file and tokenizer (values = tokens)
     dateFormat  X
     axisFormat  %s
 
-    section Claude Opus
-    personal-instructions.md : 0, 49
-    general-instructions.md  : 0, 434
+    section personal-instructions.md
+    Claude Opus    : 0, 49
+    Claude Sonnet  : 0, 49
+    GPT-5          : 0, 49
+    GPT-5 Mini     : 0, 49
+    Gemini Pro     : 0, 43
+    Gemini Flash   : 0, 43
+    Grok 1.5       : 0, 43
 
-    section Claude Sonnet
-    personal-instructions.md : 0, 49
-    general-instructions.md  : 0, 434
-
-    section GPT-5
-    personal-instructions.md : 0, 49
-    general-instructions.md  : 0, 332
-
-    section GPT-5 Mini
-    personal-instructions.md : 0, 49
-    general-instructions.md  : 0, 332
-
-    section Gemini Pro
-    personal-instructions.md : 0, 43
-    general-instructions.md  : 0, 380
-
-    section Gemini Flash
-    personal-instructions.md : 0, 43
-    general-instructions.md  : 0, 380
-
-    section Grok 1.5
-    personal-instructions.md : 0, 43
-    general-instructions.md  : 0, 380
+    section general-instructions.md
+    Claude Opus    : 0, 434
+    Claude Sonnet  : 0, 434
+    GPT-5          : 0, 332
+    GPT-5 Mini     : 0, 332
+    Gemini Pro     : 0, 380
+    Gemini Flash   : 0, 380
+    Grok 1.5       : 0, 380
 
 ```

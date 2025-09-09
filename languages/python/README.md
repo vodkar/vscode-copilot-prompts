@@ -5,7 +5,7 @@
 - [Pytest Instructions](./pytest-instructions.md)
 
 ```mermaid
-%%{init: {'gantt': {'leftPadding': 150, 'rightPadding': 75, 'topPadding': 75, 'fontSize': 11, 'sectionFontSize': 16}}}%%
+%%{init: {'gantt': {'leftPadding': 200, 'rightPadding': 75, 'topPadding': 75, 'fontSize': 11, 'sectionFontSize': 16}}}%%
 gantt
     title Token counts per file and tokenizer (values = tokens)
     dateFormat  X

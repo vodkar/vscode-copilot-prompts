@@ -18,5 +18,7 @@ This repository is split by high-level use cases of prompts:
 ## General Prompts
 
 - [General Prompt](./general-instructions.md)
+  - Average tokens count: 381
 - [Personal Instructions](./personal-instructions.md)
   - Note: this is just template for your personal data. Customize it to fit your needs.
+  - Average tokens count: 46

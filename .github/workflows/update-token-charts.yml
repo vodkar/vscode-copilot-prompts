@@ -1,0 +1,58 @@
+name: Update Token Analysis Charts
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  update-charts:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyyaml tiktoken anthropic google-generativeai openai
+    
+    - name: Run token counter
+      run: python token_counter.py
+      
+    - name: Update README charts
+      run: python update_readme_charts.py
+    
+    - name: Check for changes
+      id: verify-changed-files
+      run: |
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "changed=true" >> $GITHUB_OUTPUT
+        else
+          echo "changed=false" >> $GITHUB_OUTPUT
+        fi
+    
+    - name: Commit and push changes
+      if: steps.verify-changed-files.outputs.changed == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add token_analysis_report.yaml
+        git add README.md
+        git add approaches/*/README.md
+        git add languages/*/README.md
+        git commit -m "🤖 Update token analysis charts
+
+        - Updated token counts from token_counter.py
+        - Refreshed gantt charts in README files
+        
+        Co-Authored-By: GitHub Actions <noreply@github.com>"
+        git push

@@ -4,6 +4,8 @@
   - Average tokens count:
 - [Pytest Instructions](./pytest-instructions.md)
 
+## Tokens statistics
+
 ```mermaid
 %%{init: {'gantt': {'leftPadding': 200, 'rightPadding': 75, 'topPadding': 75, 'fontSize': 11, 'sectionFontSize': 16}}}%%
 gantt
@@ -11,22 +13,22 @@ gantt
     dateFormat  X
     axisFormat  %s
 
-    section Personal Instructions
-    Claude Opus    : 0, 49
-    Claude Sonnet  : 0, 49
-    GPT-5          : 0, 49
-    GPT-5 Mini     : 0, 49
-    Gemini Pro     : 0, 43
-    Gemini Flash   : 0, 43
-    Grok 1.5       : 0, 43
+    section General With Typing Instructions
+    Claude Opus    : 0, 828
+    Claude Sonnet  : 0, 828
+    GPT-5          : 0, 693
+    GPT-5 Mini     : 0, 693
+    Gemini Pro     : 0, 724
+    Gemini Flash   : 0, 724
+    Grok 1.5       : 0, 724
 
-    section General Instructions
-    Claude Opus    : 0, 434
-    Claude Sonnet  : 0, 434
-    GPT-5          : 0, 332
-    GPT-5 Mini     : 0, 332
-    Gemini Pro     : 0, 380
-    Gemini Flash   : 0, 380
-    Grok 1.5       : 0, 380
+    section Pytest Instructions
+    Claude Opus    : 0, 1244
+    Claude Sonnet  : 0, 1244
+    GPT-5          : 0, 1146
+    GPT-5 Mini     : 0, 1146
+    Gemini Pro     : 0, 1088
+    Gemini Flash   : 0, 1088
+    Grok 1.5       : 0, 1088
 
 ```

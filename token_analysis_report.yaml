@@ -23,21 +23,21 @@ files:
         grok-1.5: 2202
   general-instructions.md:
     file_path: general-instructions.md
-    file_size_bytes: 1530
-    character_count: 1520
-    average_tokens: 381
+    file_size_bytes: 1737
+    character_count: 1727
+    average_tokens: 433
     token_counts:
       claude:
-        claude-4-opus: 434
-        claude-4-sonnet: 434
+        claude-4-opus: 493
+        claude-4-sonnet: 493
       openai:
-        gpt-5: 332
-        gpt-5-mini: 332
+        gpt-5: 379
+        gpt-5-mini: 379
       google:
-        gemini-2.5-pro: 380
-        gemini-2.5-flash: 380
+        gemini-2.5-pro: 431
+        gemini-2.5-flash: 431
       x:
-        grok-1.5: 380
+        grok-1.5: 431
   languages/javascript/general-instructions.md:
     file_path: languages/javascript/general-instructions.md
     file_size_bytes: 2417
@@ -57,21 +57,21 @@ files:
         grok-1.5: 584
   languages/python/general-with-typing-instructions.md:
     file_path: languages/python/general-with-typing-instructions.md
-    file_size_bytes: 2904
-    character_count: 2898
-    average_tokens: 744
+    file_size_bytes: 2768
+    character_count: 2766
+    average_tokens: 716
     token_counts:
       claude:
-        claude-4-opus: 828
-        claude-4-sonnet: 828
+        claude-4-opus: 790
+        claude-4-sonnet: 790
       openai:
-        gpt-5: 693
-        gpt-5-mini: 693
+        gpt-5: 681
+        gpt-5-mini: 681
       google:
-        gemini-2.5-pro: 724
-        gemini-2.5-flash: 724
+        gemini-2.5-pro: 691
+        gemini-2.5-flash: 691
       x:
-        grok-1.5: 724
+        grok-1.5: 691
   languages/python/pytest-instructions.md:
     file_path: languages/python/pytest-instructions.md
     file_size_bytes: 4359
@@ -107,17 +107,17 @@ files:
       x:
         grok-1.5: 43
 averages:
-  average_file_size_bytes: 3365
-  average_character_count: 3349
+  average_file_size_bytes: 3377
+  average_character_count: 3361
   average_token_counts:
     claude:
-      claude-4-opus: 956
-      claude-4-sonnet: 956
+      claude-4-opus: 960
+      claude-4-sonnet: 960
     openai:
-      gpt-5: 759
-      gpt-5-mini: 759
+      gpt-5: 765
+      gpt-5-mini: 765
     google:
-      gemini-2.5-pro: 836
-      gemini-2.5-flash: 836
+      gemini-2.5-pro: 839
+      gemini-2.5-flash: 839
     x:
-      grok-1.5: 836
+      grok-1.5: 839

@@ -14,13 +14,13 @@ gantt
     axisFormat  %s
 
     section General With Typing Instructions
-    Claude Opus    : 0, 828
-    Claude Sonnet  : 0, 828
-    GPT-5          : 0, 693
-    GPT-5 Mini     : 0, 693
-    Gemini Pro     : 0, 724
-    Gemini Flash   : 0, 724
-    Grok 1.5       : 0, 724
+    Claude Opus    : 0, 790
+    Claude Sonnet  : 0, 790
+    GPT-5          : 0, 681
+    GPT-5 Mini     : 0, 681
+    Gemini Pro     : 0, 691
+    Gemini Flash   : 0, 691
+    Grok 1.5       : 0, 691
 
     section Pytest Instructions
     Claude Opus    : 0, 1244

@@ -33,13 +33,13 @@ gantt
     axisFormat  %s
 
     section General Instructions
-    Claude Opus    : 0, 434
-    Claude Sonnet  : 0, 434
-    GPT-5          : 0, 332
-    GPT-5 Mini     : 0, 332
-    Gemini Pro     : 0, 380
-    Gemini Flash   : 0, 380
-    Grok 1.5       : 0, 380
+    Claude Opus    : 0, 493
+    Claude Sonnet  : 0, 493
+    GPT-5          : 0, 379
+    GPT-5 Mini     : 0, 379
+    Gemini Pro     : 0, 431
+    Gemini Flash   : 0, 431
+    Grok 1.5       : 0, 431
 
     section Personal Instructions
     Claude Opus    : 0, 49
